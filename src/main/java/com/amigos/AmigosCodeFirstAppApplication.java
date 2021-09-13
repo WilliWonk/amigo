@@ -1,5 +1,7 @@
 package com.amigos;
 
+import java.util.List;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,8 +16,7 @@ public class AmigosCodeFirstAppApplication {
 	}
 	
 	@GetMapping
-	public String hello() {
-		return "<h1>Hallo Welt</h1>";
+	public List<String> hello() {
+		return List.of("Hallo", "World", "2222");
 	}
-
 }
