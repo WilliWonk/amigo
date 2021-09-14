@@ -17,6 +17,6 @@ public class AmigosCodeFirstAppApplication {
 	
 	@GetMapping
 	public List<String> hello() {
-		return List.of("Hallo", "World", "2222");
+		return List.of("Hallo", "World", "Kajgana");
 	}
 }
