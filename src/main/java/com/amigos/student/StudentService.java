@@ -13,10 +13,6 @@ public class StudentService {
 				return List.of(
 						new Student(1L, "Mare", "mare@gmail.com", 
 								LocalDate.of(2000, 12, 21), 22
-								),
-						new Student(1L, "Mare", "mare@gmail.com", 
-								LocalDate.of(2000, 12, 21), 22
-								)
-							);
+								));
 			}
 }
